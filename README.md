@@ -8,13 +8,13 @@ Create a Launch Configuration in order to deploy four servers, two located in ea
 ![alt text](https://github.com/hardikmittal18/Highly-available-website/blob/main/project2.jpeg?raw=true)
 
 ## Files included:
-cloudformation_main.yml - CloudFormation network infrastructure stack description.
-parameters.json - Parameters file for the network infrastructure stack.
-parametersSecurity.json - Parameters file for the network infrastructure stack.
-securitygroup.yml - Security groups and Load balancers and auto scaling stack.
-cloudformation.sh - bash script for creating infrastructure stack.
-updatestack.sh - bash script for updating any services infrastructure stack.
-project2.jpeg - infrastructure diagram.
+- cloudformation_main.yml - CloudFormation network infrastructure stack description.
+- parameters.json - Parameters file for the network infrastructure stack.
+- parametersSecurity.json - Parameters file for the network infrastructure stack.
+- securitygroup.yml - Security groups and Load balancers and auto scaling stack.
+- cloudformation.sh - bash script for creating infrastructure stack.
+- updatestack.sh - bash script for updating any services infrastructure stack.
+- project2.jpeg - infrastructure diagram.
 ## Running the project:
 Execute network infrastructure stack. Usage: cloudformation.sh create
 Upon step 1 successful completion, execute services infrastructure stack Usage: cloudformation_main.yml create
