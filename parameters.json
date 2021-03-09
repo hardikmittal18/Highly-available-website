@@ -1,0 +1,28 @@
+[
+    {
+      "ParameterKey": "EnvironmentName",
+      "ParameterValue": "Myudacity-project-2"
+    },
+
+    {
+        "ParameterKey": "VpcCIDR",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+    "ParameterKey": "PublicCidr1A",
+    "ParameterValue": "10.0.1.0/24"
+    },
+    {
+    "ParameterKey": "PublicCidr1B",
+    "ParameterValue": "10.0.11.0/24"
+    },
+    {
+    "ParameterKey": "PrivateCidr1A",
+    "ParameterValue": "10.0.5.0/24"
+    },
+    {
+    "ParameterKey": "PrivateCidr1B",
+    "ParameterValue": "10.0.15.0/24"
+    }
+]
+  
